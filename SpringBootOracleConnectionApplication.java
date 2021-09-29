@@ -20,7 +20,7 @@ public class SpringBootOracleConnectionApplication implements CommandLineRunner 
 		System.out.println("Reading movie records...");
 		System.out.printf("%-30.30s  %-30.30s%n", "Title", "Description");
 		jdbcTemplate.query("SELECT * FROM movies", (rs)-> {
-			
+			someone
 		});
 	}
 }
